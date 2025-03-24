@@ -105,7 +105,7 @@ int main() {
         return 1;
     }
 
-    //while (getchar() != '\n'); // Clear input buffer
+    while (getchar() != '\n'); // Clear input buffer
 
     for (int i = 0; i < n; i++) {
         printf("\nEnter details for Task %d:\n", i + 1);
