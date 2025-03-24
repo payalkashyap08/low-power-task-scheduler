@@ -1,7 +1,8 @@
 # Low Power Task Scheduler
 This project is an energy-efficient CPU Scheduler is an optimized CPU scheduling algorithm designed to minimize energy consumption without compromising system performance. It is specifically developed for  desktop, mobile and embedded systems, where power efficiency is crucial. 
 Energy-Efficient CPU Scheduling in C.
-Overview
+
+## Overview
 This project implements a simplified energy-efficient CPU scheduling algorithm in C. It demonstrates how to reduce CPU power consumption by:
 
 Prioritizing tasks based on urgency.
