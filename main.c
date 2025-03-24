@@ -76,13 +76,11 @@ void scheduleTasks(Task tasks[], int n) {
         float cpuLoad = getCPUUsage();
         printf("Current CPU Load: %.2f%%\n", cpuLoad);
 
-        /*
         if (cpuLoad > 75.0) {
             printf("?? High CPU usage detected! Delaying execution to save power...\n");
             sleep(3);
         }
-        */
-
+        
         time_t startTime = time(NULL);
         printf("Executing Task %d | Priority: %d | Execution Time: %d sec\n",
                tasks[i].id, tasks[i].priority, tasks[i].execution_time);
