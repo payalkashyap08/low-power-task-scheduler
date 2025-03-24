@@ -62,12 +62,11 @@ void sortTasks(Task tasks[], int n) {
 
 // Function to execute tasks efficiently with dynamic power management
 void scheduleTasks(Task tasks[], int n) {
-    /*if (n == 0) {
+    if (n == 0) {
         printf("No tasks available. CPU is entering low-power mode...\n");
         sleep(2);
         return;
     }
-    */
 
     printf("\n=== Scheduling tasks based on priority ===\n");
     int cpuCores = getCPUCores();
