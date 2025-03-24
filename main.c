@@ -48,6 +48,17 @@ int getCPUCores() {
 }
 
 //Sorting task (based on priority)
+void sortTasks(Task tasks[], int n) {
+    for (int i = 0; i < n - 1; i++) {
+        for (int j = i + 1; j < n; j++) {
+            if (tasks[i].priority > tasks[j].priority) {
+                Task temp = tasks[i];
+                tasks[i] = tasks[j];
+                tasks[j] = temp;
+            }
+        }
+    }
+}
 
 // Function to execute tasks efficiently with dynamic power management
 void scheduleTasks(Task tasks[], int n) {
