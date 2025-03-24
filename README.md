@@ -10,7 +10,7 @@ This project implements a simplified energy-efficient CPU scheduling algorithm. 
 
 This project is ideal for college assignments or as a learning exercise for CPU scheduling and power management techniques.
 
-Features
+### Features
 * Priority-Based Task Scheduling – Higher-priority tasks execute first.
 * Task Classification – Differentiates urgent and background tasks.
 * CPU Idle Simulation – Uses sleep functions to reduce CPU activity when no tasks are available.
